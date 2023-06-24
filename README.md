@@ -26,7 +26,7 @@ After successful installation you can run:
 cd project-name && npm run dev
 ```
 This will start the starter template on ``localhost:3000``
-> You may want to delete the ``/bin`` folder in root directory and configure ``package.json`` as per your project.
+> You can delete the `bin` folder if it is not needed for your project. Additionally, make changes to the `package.json` file as per your project's needs.
 
 ## Usage
 -----
@@ -46,13 +46,4 @@ You can make use of following scripts throughout your project
 *   `npm run preview`: Serves the production build for previewing.
 
 
-Feel free to customize the project by modifying the files according to your requirements. You can delete the `bin` folder if it is not needed for your project. Additionally, make changes to the `package.json` file as per your project's needs.
-
-License
--------
-
-This project is licensed under the [MIT License](LICENSE).
-
-javascriptCopy code
-
-``Copy the above Markdown code and save it as `README.md` in the root directory of your project.``
+Feel free to customize the project by modifying the files according to your requirements. 
