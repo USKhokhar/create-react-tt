@@ -1,6 +1,6 @@
 {
   "name": "create-react-tt",
-  "bin": "./bin/cli/js",
+  "bin": "./bin/cli.js",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +8,10 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USKhokhar/create-react-tt"
   },
   "dependencies": {
     "react": "^18.2.0",
