@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import execSync from "child_process"
+import { execSync } from "child_process"
 
 const runCli = (command) => {
     try{
