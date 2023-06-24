@@ -22,10 +22,13 @@ console.log(`Starting ${projectName} with vite, react-ts, tailwind, and routing`
 const runGitCommand = runCli(gitCommand)
 if(!runGitCommand) process.exit(-1)
 
-console.log("Attention Ladies and Gentlemen, this is your captain speaking... we are about to take off")
-console.log("Setting up all the dependencies...")
+console.log("Attention Ladies and Gentlemen, this is your captain👨‍✈️ speaking... we are about to take off ✈")
+console.log("Setting up all the dependencies...⚛ ⚒ ")
 
 const runInstallDeps = runCli(installDeps)
 if(!runInstallDeps) process.exit(-1)
 
-console.log("We are in the air, from here, sky is the limit... Happy Hacking")
+console.log("We are in the air, from here, sky is the limit 🚀 ... Happy Hacking 💻 ")
+console.log("run following commands to start")
+console.log(`cd ${projectName}`)
+console.log(`npm run dev`)

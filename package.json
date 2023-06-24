@@ -1,7 +1,7 @@
 {
   "name": "create-react-tt",
   "bin": "./bin/cli.js",
-  "version": "1.0.1-beta",
+  "version": "1.0.2-beta",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
