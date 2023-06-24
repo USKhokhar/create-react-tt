@@ -1,6 +1,6 @@
 {
-  "name": "react-ts-tw",
-  "private": true,
+  "name": "create-react-tt",
+  "bin": "./bin/cli/js",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
