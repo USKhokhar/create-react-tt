@@ -14,13 +14,13 @@ const runCli = (command) => {
 }
 
 const projectName = process.argv[2]
-const gitCommand = `git clone --depth 1 https://github.com/USKhokhar/create-react-tt.git ${projectName}`
-const installDeps = `cd ${projectName} && npm install`
+const viteInstall = ` npm init vite@latest ${projectName} -- --template react-ts && cd ${projectName} && npm install`
+const installDeps = `npm install -D tailwindcss postcss autoprefixer && npm install react-router-dom && rm -rf ./src/ && git clone --depth 1 https://github.com/USKhokhar/src.git && mv ./src/tailwind.config.js ./tailwind.config.js && mv ./src/postcss.config.js ./postcss.config.js`
 
 console.log(`Starting ${projectName} with vite, react-ts, tailwind, and routing`)
 
-const runGitCommand = runCli(gitCommand)
-if(!runGitCommand) process.exit(-1)
+const runViteInstall = runCli(viteInstall)
+if(!runViteInstall) process.exit(-1)
 
 console.log("Attention Ladies and Gentlemen, this is your captain👨‍✈️ speaking... we are about to take off ✈")
 console.log("Setting up all the dependencies...⚛ ⚒ ")
@@ -30,5 +30,5 @@ if(!runInstallDeps) process.exit(-1)
 
 console.log("We are in the air, from here, sky is the limit 🚀 ... Happy Hacking 💻 ")
 console.log("run following commands to start")
-console.log(`cd ${projectName}`)
+// console.log(`cd ${projectName}`)
 console.log(`npm run dev`)
