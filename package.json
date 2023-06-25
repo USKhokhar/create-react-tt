@@ -1,6 +1,6 @@
 {
   "name": "create-react-tt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "description": "Starter template for creating React projects with Vite, TypeScript, Tailwind CSS, and React Router.",
   "bin": {

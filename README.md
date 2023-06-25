@@ -25,8 +25,8 @@ After successful installation you can run:
 ```bash
 cd project-name && npm run dev
 ```
-This will start the starter template on ``localhost:3000``
-> You can delete the `bin` folder if it is not needed for your project. Additionally, make changes to the `package.json` file as per your project's needs.
+This will start the starter template on ``localhost:5173``
+
 
 ## Usage
 -----
