@@ -15,7 +15,7 @@ const runCli = (command) => {
 
 const projectName = process.argv[2]
 const viteInstall = ` npm init vite@latest ${projectName} -- --template react-ts && cd ${projectName} && npm install`
-const installDeps = `cd ${projectName} && npm install -D tailwindcss postcss autoprefixer && npm install react-router-dom && rm -rf ./src/ && git clone --depth 1 https://github.com/USKhokhar/src.git && mv ./src/tailwind.config.js ./tailwind.config.js && mv ./src/postcss.config.js ./postcss.config.js`
+const installDeps = `cd ${projectName} && npm install -D tailwindcss postcss autoprefixer && npm install react-router-dom && rm -r src/* && git clone --depth 1 https://github.com/USKhokhar/create-react-tt_src.git && mv create-react-tt_src/* src/ && rm -r create-react-tt_src && mv ./src/tailwind.config.js ./tailwind.config.js && mv ./src/postcss.config.js ./postcss.config.js`
 
 console.log(`Starting ${projectName} with vite, react-ts, tailwind, and routing`)
 
